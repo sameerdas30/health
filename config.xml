@@ -6,7 +6,7 @@
         id        = "com.phonegap.healthistory"
         version   = "1.0.0">
 
-    <name>Ticketfiler</name>
+    <name>Health</name>
 
     <description>
         Health Questionnaire
