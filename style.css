@@ -1,0 +1,49 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+body{
+margin:0px;
+padding:0px;font-family: 'Open Sans', sans-serif; font-weight:normal;
+background:#EDE9E4;
+}
+p{ text-align:left; font-size:13px;}
+.container{
+/*width:798px !important;*/
+margin:0 auto;
+border:1px solid #000000;
+}
+.top_border {
+    border-top: 30px solid #000000;
+}
+.style1 {
+	color: #0000FF;
+	font-weight: bold;
+}
+.style2 {
+	color: #000000;
+	font-weight: bold;
+}
+
+.header_txt{    border-top: 1px solid #000000; border-bottom:1px solid #000000;}
+.header_txt p{padding:20px 0px;}
+.np{padding:0px !important;}
+.p-tb10{ padding-top:10px; padding-bottom:10px;}
+.full{ width:100%; float:left; padding-bottom:10px; padding-top:10px; border-bottom:1px solid #000;}
+.mg img{ width:100%;}
+p.pad{ padding-left:15px; padding-right:15px;}
+.fullwh{ width:100%; float:left; padding-bottom:10px; padding-top:10px; border-bottom:1px solid #000; background:#ffffff; text-align:center; font-size:30px; font-weight:bold; color:#406AB0;}
+.blc{ width:100%; float:left; color:#FFFFFF; padding:10px 30px; background:#000000; font-size:13px; font-weight:normal;}
+.copy{ text-align:center; font-size:11px; color:#333333; padding-top:20px; padding-bottom:20px;}
+span.glyphicon.form-control-feedback.glyphicon-ok {
+    right: 10px;
+}
+span.glyphicon.form-control-feedback.glyphicon-remove {
+    right: 10px;
+}
+
+.inline {
+        display: inline-block;
+	margin-right:8px;
+}
+label.inline {
+    line-height:30px;
+}
