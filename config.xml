@@ -12,9 +12,10 @@
   <author href="https://www.webzin.in" email="sameer@webzin.in">
       Sam
   </author>
-
+<gap:plugin name="inappbrowser" />
   <!-- all platforms -->
-  <preference name="phonegap-version" value="cli-6.0.0" />
-  <preference name="orientation" value="landscape" />
+  <preference name="phonegap-version" value="cli-6.5.0" />
+  <preference name="orientation" value="default" />
+  <preference name="stay-in-webview" value="true" /> 
   <preference name="fullscreen" value="true" />
 </widget>
