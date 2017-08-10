@@ -12,6 +12,8 @@
   <author href="https://www.webzin.in" email="sameer@webzin.in">
       Sam
   </author>
+  <gap:plugin name="org.apache.cordova.inappbrowser" />
+  <gap:plugin name="org.apache.cordova.splashscreen" />
   <!-- all platforms -->
   <preference name="phonegap-version" value="cli-6.5.0" />
   <preference name="orientation" value="default" />
