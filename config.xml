@@ -12,7 +12,6 @@
   <author href="https://www.webzin.in" email="sameer@webzin.in">
       Sam
   </author>
-<gap:plugin name="inappbrowser" />
   <!-- all platforms -->
   <preference name="phonegap-version" value="cli-6.5.0" />
   <preference name="orientation" value="default" />
