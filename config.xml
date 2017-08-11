@@ -12,6 +12,10 @@
   <author href="https://www.webzin.in" email="sameer@webzin.in">
       Sam
   </author>
+  <phonegap>
+    <access origin="https://bootstrapcdn.com" subdomains="true" />
+	<access origin="https://cloudflare.com" subdomains="true" />
+  </phonegap>
   <access origin="*" />
   <!-- all platforms -->
   <preference name="phonegap-version" value="cli-6.5.0" />
