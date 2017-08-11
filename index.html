@@ -562,9 +562,7 @@ $('#health_appointment input#fstsaba').on('change', function() {
 $('form#health_appointment').validator().on('submit', function (e) {
   if (e.isDefaultPrevented()) {
     // handle the invalid form...
-	alert('sadasd');
   } else {
-	  alert('suc');
 	  /*submitHandler: function({
                 window.onbeforeunload = null;*/
     // everything looks good!
@@ -577,7 +575,12 @@ $('form#health_appointment').validator().on('submit', function (e) {
 			url: 'http://www.wordpress-guru.net/health/pro.php',
 			cache: false,
 			success: function(response) {
-			window.location.href ='thanku.html';
+				if(response){
+					window.location.href ='thanku.html';
+				}
+				else{
+					alert("There is some error in communicating with server. Please try again later.");
+				}
         },
           error: function(response) {
 			  console.log(response);
